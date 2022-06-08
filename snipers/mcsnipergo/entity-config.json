@@ -1,0 +1,21 @@
+{
+    "name": "MCSniperGO",
+    "execution": {
+        "mode": "cli",
+        "keyInputs": {
+            "press enter to exit": "Enter"
+        },
+        "errors": {
+            "please put one account in the accounts.txt file": "NO_ACCOUNTS",
+            "failed to grab droptime from all APIs": "ERROR",
+            "parse error": "ERROR"
+        },
+        "executable": {
+            "command": "MCsnipergo_{{version}}_{{platform}}_64-bit.exe",
+            "arguments": "start --username {{username}} --offset {{offset}}"
+        }
+    },
+    "installation": {
+        "repo": ""
+    }
+}
